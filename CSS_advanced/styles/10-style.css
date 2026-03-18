@@ -22,30 +22,30 @@ html {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    --section-header-align: centre;
+    --section-header-align: center;
   }
   
- a {
+  a {
     color: var(--text-color);
     text-decoration: none;
-}
-
-body {
+  }
+  
+  body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base); 
+    line-height: var(--line-height-base);
   }
   
   .visually-hidden{
     display: none;
   }
-
+  
   .section-header{
     text-align: var(--section-header-align);
   }
-
+  
   .card-category, .section-tagline{
     color: var(--color-primary);
   }
