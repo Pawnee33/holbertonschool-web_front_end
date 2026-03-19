@@ -163,7 +163,7 @@ html {
     list-style: none;
   }
 
-  row::after{
+  .row::after{
     content: "";
     display: table;
     clear: both;
