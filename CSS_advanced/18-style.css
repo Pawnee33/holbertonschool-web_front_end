@@ -97,10 +97,6 @@ html {
     padding: var(--section-footer-padding);
   }
   
-  .card-category, .section-tagline{
-    color: var(--color-primary);
-  }
-
   .section-title{
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -118,6 +114,10 @@ html {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .card-category, .section-tagline{
+    color: var(--color-primary);
   }
 
   .navbar-menu{
